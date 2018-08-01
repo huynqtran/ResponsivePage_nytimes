@@ -1,0 +1,511 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="">
+		<meta name="author" content="">
+		<title>Assignment-12 </title>
+		<!--Bootstrap-->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<link href="css/style.css" rel="stylesheet">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+	</head>
+	<body>
+		<div class="wrapper">
+	       <!-- header -->			  	
+			<header class="masthead container">
+				<div class="masthead-cap-container my-2">
+					<div class="quick-navigation d-flex justify-content-between">
+                                <div class="d-flex">
+                                        <button class="button sections-button enable-a11y">
+                                            <i class="fas fa-align-justify"></i>
+                                            <span class="button-text d-none d-md-block d-lg-block d-xl-block">Sections</span>
+                                        </button>
+                                        <img class="short-logo d-block d-md-none d-lg-none d-xl-none"
+                                             src="https://www.famouslogos.net/images/new-york-times-logo.jpg" alt="The New York Times">
+                                        <button class="button search-button">
+                                            <i class="fas fa-search"></i>
+                                            <span class="button-text d-none d-md-block d-lg-block d-xl-block">Search</span>
+                                        </button>
+                                </div>
+                                <div class="d-none d-md-block d-lg-block d-xl-block">
+                                    <div class="user-tools-button-group button-group">
+                                        <button class="button subscribe-button">Subscribe Now</button>
+                                        <button class="button login-button">Log In</button>
+                                        <button class="button user-settings-button">
+                                            <i class="fas fa-cog fa-lg"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                </div>
+
+				<div class="masthead-meta container d-none d-md-block d-lg-block d-xl-block">
+				        <div class="editions tab d-flex flex-row justify-content-center">
+				            <ul class="editions-menu">
+				                <li class="edition-domestic-toggle active">English</li>
+				                <li class="edition-chinese-toggle"><a href="http://cn.nytimes.com" target="_blank" data-edition="chinese">中文 (Chinese)</a></li>
+				                <li class="edition-spanish-toggle"><a href="https://www.nytimes.com/es/" data-edition="spanish">Español</a></li>
+				            </ul>
+				        </div><!-- close editions -->
+				      <div class="branding d-flex justify-content-center">
+				      	<a href="https://www.nytimes.com/">
+                            <img class="nyt-logo img-fluid" src="https://g1.nyt.com/assets/homepage/20180614-182902/images/foundation/logos/nyt-logo-379x64.png" alt="The New York Times" border="0">
+					    </a>
+                      </div>
+						  	<div class="brand-menu">
+						        <ul class="masthead-menu">
+						            <li class="date">Thursday, June 28, 2018</li>
+						            <li class="todays-paper">
+                                        <a href="http://www.nytimes.com/pages/todayspaper/index.html">
+                                            <i class="icon sprite-icon"></i>Today’s Paper</a>
+                                    </li>
+						            <li class="video">
+						            	<a href="https://www.nytimes.com/video">
+						            		<i class="fas fa-video"></i>Video</a>
+						            </li>
+						            <li id="weather" class="weather">
+						            	<button class="button weather-button">
+						            		<i class="fas fa-sun"></i>82°F
+						            	</button>
+						            </li>
+						            <li id="markets" class="markets">
+						            	<button class="button markets-button">Dow 
+						            		<span>+0.41%</span>
+						            		<i class="fas fa-long-arrow-alt-down"></i>
+						            	</button>
+						            </li>
+						        </ul>
+					    	</div>
+                </div>
+				<nav class="mini-navigation d-flex flex-wrap d-none d-md-block d-lg-block d-xl-block">
+				    <ul class="mini-navigation-menu d-flex-inline d-none d-md-block d-lg-block d-xl-block">
+						<li class="world"><a href="https://www.nytimes.com/section/world">Real News</a></li>
+						<li class="politics"><a href="https://www.nytimes.com/section/politics"> Honest Politics</a></li>
+						<li class="ny"><a href="https://www.nytimes.com/section/nyregion">N.Y.</a></li>
+   		                <li class="international"><a href="https://www.nytimes.com/section/business">Business</a></li>
+                        <li class="domestic"><a href="https://www.nytimes.com/section/opinion">Opinion</a></li>
+				        <li class="science"><a href="https://www.nytimes.com/section/science">Non Tech</a></li>
+				        <li class="sports"><a href="https://www.nytimes.com/section/sports">Muller Time</a></li>
+				        <li class="arts"><a href="https://www.nytimes.com/section/arts">Arts</a></li>
+                        <li class="books"><a href="https://www.nytimes.com/section/books">Mad Money</a></li>
+                        <li class="style"><a href="https://www.nytimes.com/section/fashion">Trolls</a></li>
+				        <li class="food"><a href="https://www.nytimes.com/pages/dining/index.html">Collujah</a></li>
+				        <li class="travel "><a href="https://www.nytimes.com/section/travel">Food</a></li>
+				        <li class="realestate"><a href="https://www.nytimes.com/section/realestate">Cockroach Milk</a></li>
+                       	<li><button class="button all-sections-button">all</button></li>
+				    </ul>
+				</nav>
+		   	</header>
+            <!-- header ends -->
+		 <!-- main content -->
+			<main id="main" class="container main d-flex justify-content-between my-4 px-3" role="main">
+                <!--row-->
+					    <div class="main-thread container border-right">
+                            <article class="story">
+                                <h2 class="story-heading">
+                                    <a href="https://money.cnn.com/2018/07/26/news/companies/papa-johns-lawsuit-john-schnatter/index.html">Papa John sues Papa John's.</a></h2>
+                                <p class="transparent">By A FAT FOODIE </p>
+                                <p class="summary mb-0">
+                                    John Schnatter, the ousted founder of pizza chain Papa John's, is suing his former company.
+                                <p class="theme-comments ">
+                                    <a href="https://money.cnn.com/2018/07/26/news/companies/papa-johns-lawsuit-john-schnatter/index.html">
+                                        Read More >>
+                                    </a>
+                                </p>
+                                <p class="theme-comments mb-2">
+                                    <a href="https://money.cnn.com/2018/07/26/news/companies/papa-johns-lawsuit-john-schnatter/index.html"
+                                       class="comments-link">
+                                        <i class="fas fa-comment-alt comments-icon"></i>
+                                        <span class="comment-count">56 Comments</span>
+                                    </a>
+                                </p>
+                            </article>
+						    <hr class="single">
+                            <article class="story">
+                                <h2 class="story-heading text-left">
+                                    <a href="https://www.oakbaynews.com/news/14-rcmp-sniffer-dogs-forced-into-early-retirement-due-to-cannabis-legalization/">
+                                        Sniffer dogs forced into early retirement due to cannabis legalization.
+                                    </a>
+                                </h2>
+                                <figure class="media-photo">
+                                    <a href="https://www.oakbaynews.com/news/14-rcmp-sniffer-dogs-forced-into-early-retirement-due-to-cannabis-legalization/">
+                                <img class="mx-auto rounded img-fluid" src="https://images.herb.co/wp-content/uploads/2014/07/new-legal-over-the-counter-cannabis-medicine-released-for-pets_m-lrn_0.jpg" alt="">
+                                    </a>
+                                </figure>
+                                <p class="transparent">By GET DOGS JOBS </p>
+                                <p class="summary mb-0">
+                                    As the saying goes, you can’t teach an old dog new tricks, and as cannabis legalization approaches, that puts Luke and other dogs like him out of work.
+                                <p class="theme-comments ">
+                                    <a href="">
+                                        Read More >>
+                                    </a>
+                                </p>
+                                <hr class="single">
+                            </article>
+					    </div>
+                        <!-- second column begins -->
+                            <div class=" main-thread container border-right">
+                                <article class="story">
+                                    <figure class="medium-photo">
+                                        <a href="https://www.bbc.com/news/world-africa-44968509">
+                                            <img class="mx-auto rounded img-fluid"  src="https://ichef.bbci.co.uk/news/736/cpsprodpb/E86C/production/_102700595_zebradonkey.jpg" alt="donkey or zebra">
+                                        </a>
+                                    </figure>
+                                    <article class="story theme-summary">
+                                        <h2 class="story-heading">
+                                            <a href="https://www.bbc.com/news/world-africa-44968509">
+                                                Egypt zoo accused of painting donkey to look like a zebra
+                                            </a>
+                                        </h2>
+                                        <p class="transparent">By PYRAMID AMONG SQAURES  </p>
+                                        <p class="summary">
+                                            A zoo in Egypt has denied painting black stripes on a donkey to make it look like a zebra after a photo of the animal appeared online.
+                                        </p>
+                                    </article>
+                                </article>
+                                <hr class="double">
+                                <article class="story">
+                                    <figure class="medium-photo">
+                                        <a href="https://entertainment.theonion.com/cool-glitch-effect-on-movie-studio-logo-must-mean-shit-1825294743">
+                                            <img class="mx-auto rounded img-fluid"  src="https://i.kinja-img.com/gawker-media/image/upload/s--1MJ19QIj--/c_scale,f_auto,fl_progressive,q_80,w_800/hpncfgq6sdbzcpspnadr.jpg" alt="">
+                                        </a>
+                                    </figure>
+                                </article>
+                                <article class="story theme-summary">
+                                    <h2 class="story-heading">
+                                        <a href="https://entertainment.theonion.com/cool-glitch-effect-on-movie-studio-logo-must-mean-shit-1825294743">
+                                            Cool Glitch Effect On Movie Studio Logo Must Mean Shit is About To Go Down
+                                        </a>
+                                    </h2>
+                                    <p class="transparent">By GULLABLE  </p>
+                                    <p class="summary">
+                                        The cool glitch effect used on the Warner Bros. logo during the film’s intro sequence must mean that something big is about to happen. “Oh, man, here we go.
+                                        The normal picture got all distorted for a second, and the musical sting was replaced by some garbled, static-y background noise,” said viewer Patrick Liepert, who speculated that, if the logo’s sudden disappearance was any indication, he might be in for quite an intense ride.
+                                    </p>
+                                </article>
+                            </div>
+                        <!-- third column begins -->
+                        <div class=" main-thread container border-right">
+                             <article class="story">
+                                <h2 class="story-heading text-center">
+                                    <a href="https://www.kansascity.com/news/nation-world/article215583985.html">
+                                        Cat defeats 13 dogs, a peacock and goat to become mayor of this Michigan town
+                                    </a>
+                                </h2>
+                                <p class="transparent text-center">By KITTEN
+                                </p>
+                                <figure class="thumb-medium">
+                                <a href="https://www.kansascity.com/news/nation-world/article215583985.html">
+                                    <img class="mx-auto rounded img-fluid" src="https://allthatsinteresting.com/wordpress/wp-content/uploads/2018/07/michigan-cat-mayor-2.jpg" alt="cat wins" >
+                                </a>
+                                </figure>
+                                 <p class="summary text-center">
+                                     According to KXAN, the 280-person town recently held an election for a new mayor, and all of the entrants were animals.
+                                     Candidates included two cats, a peacock, a chicken, 13 dogs and one goat. It was Sweet Tart, a 9-year-old feline, who scooped up the most votes and is now mayor.
+                                 </p>
+                             </article>
+                            <article class="story">
+                                <h2 class="story-heading text-center">
+                                    <a href="https://www.kansascity.com/news/nation-world/article215583985.html">
+                                        Obese' tourists from US and UK blamed for crippling donkeys in Greece, activists say
+                                    </a>
+                                </h2>
+                                <p class="transparent text-center">By ACTIVISTS
+                                </p>
+                                <figure class="thumb-medium">
+                                    <a href="http://www.foxnews.com/travel/2018/07/31/obese-tourists-from-us-and-uk-blamed-for-crippling-donkeys-in-greece-activists-say.html">
+                                        <img class="mx-auto rounded img-fluid"  src="http://a57.foxnews.com/images.foxnews.com/content/fox-news/travel/2018/07/31/obese-tourists-from-us-and-uk-blamed-for-crippling-donkeys-in-greece-activists-say/_jcr_content/article-text/article-par-2/inline_spotlight_ima/image.img.jpg/612/344/1533048392388.jpg" alt="fox news" >
+                                    </a>
+                                </figure>
+                                <p class="summary text-left">
+                                    A representative for the animal rights group Help the Santorini Donkeys recently told the Mirror that locals have been forced to begin breeding
+                                    their donkeys with stronger mules to make it easier for them to carry what the Mirror calls “fatter tourists".
+                                </p>
+                            </article>
+                        </div>
+                    <!-- fourth column begins -->
+                    <div class="main-thread container d-sm-none d-md-none d-lg-block">
+                        <p class="transparent">
+                            NEWS IN BRIEF
+                        </p>
+                        <hr class="double">
+                        <ul class="portal-posts-list">
+                            <li class="portal-post linked-post">
+                                <div class="post-rail">
+                                        <p class="post-timestamp transparent">30min ago</p>
+                                </div>
+                                <figure class="post-thumb-image">
+                                    <img class="rounded img-fluid" src="https://img.purch.com/rc/300x200/aHR0cDovL3d3dy5saXZlc2NpZW5jZS5jb20vaW1hZ2VzL2kvMDAwLzA3OS82NDQvb3JpZ2luYWwvbWFuLWVhdGluZy1waXp6YS5qcGc=">
+                                </figure>
+                                <p class="theme-comments">
+                                    Guys Pig Out to Show Off for Women. Science agrees.
+                                </p>
+                             <hr class="single">
+                            </li>
+                            <li  class="portal-post linked-post">
+                                <div class="post-rail">
+                                    <p class="post-timestamp transparent">45mins ago</p>
+                                </div>
+                                <figure class="post-thumb-image">
+                                    <img class="rounded img-fluid" src="http://www.janssens.ie/wp-content/uploads/2017/06/LinkedIn-logo.jpg">
+                                </figure>
+                                <p class="theme-comments">
+                                    LinkedIn adds voice messages for some reason
+                                </p>
+                                <hr class="single">
+                            </li>
+                            <li  class="portal-post linked-post">
+                                <div class="post-rail">
+                                    <p class="post-timestamp transparent">1h ago</p>
+                                </div>
+                                <figure class="post-thumb-image">
+                                    <img class="rounded img-fluid" src="https://static.reuters.com/resources/r/?d=20180723&i=OV8PYXROH&r=OV8PYXROH&t=2&w=640">
+                                </figure>
+                                <p class="theme-comments">
+                                    Ready, steady, slow: snails slug it out at racing world championship
+                                </p>
+                                <hr class="single">
+                            </li>
+                            <li  class="portal-post linked-post">
+                                <div class="post-rail">
+                                    <p class="post-timestamp transparent">1h ago</p>
+                                </div>
+                                <figure class="post-thumb-image">
+                                    <img class="rounded img-fluid" src="https://www.asbestos.com/wp-content/uploads/xrussian-asbestos-trump-seal-274x240.jpg.pagespeed.ic.rNAMgPsv6x.webp">
+                                </figure>
+                                <p class="theme-comments">
+                                    Asbestos sold by Russian company is branded with the president’s face.
+                                </p>
+                                <hr class="single">
+                            </li>
+                            <li  class="portal-post linked-post">
+                                <div class="post-rail">
+                                    <p class="post-timestamp transparent">2hrs ago</p>
+                                </div>
+                                <figure class="post-thumb-image">
+                                    <img class="rounded img-fluid" src="https://multifiles.pressherald.com/uploads/sites/4/2018/01/WGMEbrianfogg-250x250.jpg">
+                                </figure>
+                                <p class="theme-comments">
+                                    Man punches himself in face 3 times to avoid sobriety test
+                                </p>
+                                <hr class="single">
+                            <li  class="portal-post linked-post">
+                                <div class="post-rail">
+                                    <p class="post-timestamp transparent">4hrs ago</p>
+                                </div>
+                                <figure class="post-thumb-image">
+                                    <img class="rounded img-fluid" src="https://i.kinja-img.com/gawker-media/image/upload/s--sYIOYUrJ--/c_scale,f_auto,fl_progressive,q_80,w_800/puo37hkyltvk3meusmce.png">
+                                </figure>
+                                <p class="theme-comments">
+                                    Asshole dog steals slice of pepperoni pizza from squirrel.
+                                </p>
+                                <hr class="single">
+                            </li>
+                            <li  class="portal-post linked-post">
+                                <div class="post-rail">
+                                    <p class="post-timestamp transparent">8hrs ago</p>
+                                </div>
+                                <figure class="post-thumb-image">
+                                    <img class="rounded img-fluid" src="https://i.imgur.com/fQS34Oe.jpg">
+                                </figure>
+                                <p class="theme-comments">
+                                    Rat eats $20,000 in ATM, then dies
+                                </p>
+                                <hr class="single">
+                            </li>
+                            <li  class="portal-post linked-post">
+                                <div class="post-rail">
+                                    <p class="post-timestamp transparent"> 1 day ago</p>
+                                </div>
+                                <figure class="post-thumb-image">
+                                    <img class="rounded img-fluid" src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/gettyimages-634972410-1532687978.jpg">
+                                </figure>
+                                <p class="theme-comments">
+                                    Demi Lovato's Friend Asks For No Sirens On 911 Overdose Call
+                                </p>
+                                <hr class="single">
+                            </li>
+                        </ul>
+                    </div><!-- fourth column ends -->
+            </main>
+
+				<!-- Footer -->
+				<footer class="footer">
+					<header class="section-header d-flex justify-content-between my-3">
+                        <div class="logo d-block">
+                            <h2 class="section-heading">
+                                <a id="site-index-branding-link" href="https://www.nytimes.com/">
+                                    <img class="img-fluid" width="185" height="26" src="https://g1.nyt.com/assets/collection/20180713-154233/images/foundation/logos/nyt-logo-185x26.svg" class="nyt-logo" alt="The New York Times">
+                                </a>
+                            </h2>
+                        </div>
+                        <div class="d-none d-md-block d-lg-block d-xl-block">
+						    <p class="user-action summary">
+                                <a href="https://www.nytimes.com/">Go to Home Page </a>
+                            </p>
+                        </div>
+					</header>
+                        <nav class="footer-nav d-flex justify-content-sm-start my-3 flex-wrap">
+                                        <div class="mr-auto">
+                                                <ul class="medium-heading">
+                                                    <li class="item">
+                                                        <a href="https://www.nytimes.com/ref/membercenter/help/infoservdirectory.html">
+                                                            NEWS
+                                                        </a>
+                                                        <ul class="nested">
+                                                            <li class="summary">
+                                                                Real Domestic News
+                                                            </li>
+                                                            <li class="summary">
+                                                                Real World News
+                                                            </li>
+                                                            <li class="summary">
+                                                                Weird News
+                                                            </li>
+                                                            <li class="summary">
+                                                                Got News?
+                                                            </li>
+                                                            <li class="summary">
+                                                                Business As Usual
+                                                            </li>
+                                                            <li class="summary">
+                                                                Non Tech
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                        </div>
+                                        <div class="mr-auto">
+                                            <ul class="medium-heading">
+                                                    <li class="wide-viewport-item">
+                                                        <a href="#">
+                                                            OPINION
+                                                        </a>
+                                                        <ul class="nested">
+                                                            <li class="summary">
+                                                                Today's Opinion
+                                                            </li>
+                                                            <li class="summary">
+                                                                My Opinion
+                                                            </li>
+                                                            <li class="summary">
+                                                                Your Opinion
+                                                            </li>
+                                                            <li class="summary">
+                                                                Twitter Opinion
+                                                            </li>
+                                                            <li class="summary">
+                                                                Spouse Opinion
+                                                            </li>
+                                                            <li class="summary">
+                                                                Docter's Opinion
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                            </ul>
+                                        </div>
+                                        <div class="mr-auto">
+                                            <ul class="medium-heading">
+                                                    <li class="wide-viewport-item"><a href="http://nytmediakit.com/">
+                                                        ARTS
+                                                    </a>
+                                                        <ul class="nested">
+                                                            <li class="summary">
+                                                                Today's Arts
+                                                            </li>
+                                                            <li class="summary">
+                                                                What is this Art?
+                                                            </li>
+                                                            <li class="summary">
+                                                                Artsy but not Fartsy
+                                                            </li>
+                                                            <li class="summary">
+                                                                SwipeRgt Art
+                                                            </li>
+                                                            <li class="summary">
+                                                                Television is dead
+                                                            </li>
+                                                            <li class="summary">
+                                                                Theatre has talent
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                            </ul>
+                                        </div>
+                                        <div class="mr-auto">
+                                            <ul class="medium-heading">
+                                                    <li class="wide-viewport-item">
+                                                        <a href="https://www.nytimes.com/content/help/rights/privacy/policy/privacy-policy.html#pp">
+                                                        LIVING
+                                                    </a>
+                                                        <ul class="nested">
+                                                            <li class="summary">
+                                                                Latest Expensive
+                                                            </li>
+                                                            <li class="summary">
+                                                                Trumfhed
+                                                            </li>
+                                                            <li class="summary">
+                                                                Dance U.S
+                                                            </li>
+                                                            <li class="summary">
+                                                                Healthcare is Cheap
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                            </ul>
+                                        </div>
+                                        <div class="mr-auto">
+                                            <ul class="medium-heading">
+                                                    <li class="util-border-right">
+                                                        <a href="https://www.nytimes.com/privacy">
+                                                            Listings
+                                                        </a>
+                                                        <ul class="nested">
+                                                            <li class="summary">
+                                                                Cockroach Milk
+                                                            </li>
+                                                            <li class="summary">
+                                                                BeetleJuice
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                            </ul>
+                                        </div>
+                                        <div class="mr-auto">
+                                            <ul class="medium-heading">
+                                                    <li class="util-margin-left">
+                                                        <a href="#">
+                                                            SUBSCRIBE
+                                                        </a>
+                                                        <ul class="nested summary">
+                                                            <li>
+                                                                <a href="https://www.nytimes.com/marketing/newsletters">
+                                                                    Email Newsletters
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="https://www.nytimes.com/giftleftnav">
+                                                                    Gift Subscriptions
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="https://www.nytimes.com/corporateleftnav">
+                                                                    Group Subscriptions
+                                                                </a>
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                        </div>
+							                <hr class="single">
+                                    </div>
+				    </footer>
+		</div>
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	</body>
+</html>
