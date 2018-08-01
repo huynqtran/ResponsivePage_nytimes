@@ -98,7 +98,13 @@ Media Queries
     .border-right{
         border-right:0px!important;
     }
-
+  
+   button.sections-button.enable-a11y,
+   button.button.search-button , 
+  {
+    border:none;
+    background-color:transparent; 
+  }
     img.short-logo {
         display: block;
         margin: 0 auto;
